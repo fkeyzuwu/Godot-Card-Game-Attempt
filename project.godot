@@ -27,6 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Card Game Attempt"
+run/main_scene="res://Main.tscn"
 
 [editor]
 
