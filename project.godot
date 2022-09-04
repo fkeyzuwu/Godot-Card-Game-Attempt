@@ -18,16 +18,10 @@ _global_script_classes=[ {
 "class": "CardData",
 "language": "GDScript",
 "path": "res://CardData.gd"
-}, {
-"base": "",
-"class": "GitAPI",
-"language": "NativeScript",
-"path": "res://addons/godot-git-plugin/git_api.gdns"
 } ]
 _global_script_class_icons={
 "Card": "",
-"CardData": "",
-"GitAPI": ""
+"CardData": ""
 }
 
 [application]
