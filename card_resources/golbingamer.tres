@@ -6,3 +6,4 @@
 script = ExtResource( 1 )
 name = "Golbin Gamer"
 description = "he do be golbining"
+backgroundColor = Color( 0.894118, 0.513726, 0.501961, 1 )

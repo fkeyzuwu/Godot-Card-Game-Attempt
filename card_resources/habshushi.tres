@@ -6,3 +6,4 @@
 script = ExtResource( 1 )
 name = "habshushi"
 description = "Hab+shushi+godududid"
+backgroundColor = Color( 0.741176, 0.933333, 0.894118, 1 )

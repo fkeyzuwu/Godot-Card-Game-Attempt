@@ -17,6 +17,7 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="Background" type="ColorRect" parent="Control"]
+unique_name_in_owner = true
 margin_right = 207.0
 margin_bottom = 317.0
 color = Color( 0.792157, 0.87451, 0.776471, 1 )

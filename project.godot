@@ -29,6 +29,10 @@ _global_script_class_icons={
 config/name="Card Game Attempt"
 run/main_scene="res://Main.tscn"
 
+[display]
+
+window/dpi/allow_hidpi=true
+
 [editor]
 
 version_control_autoload_on_startup=true
