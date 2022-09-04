@@ -9,12 +9,24 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "",
+"base": "Node2D",
+"class": "Card",
+"language": "GDScript",
+"path": "res://Card.gd"
+}, {
+"base": "Resource",
+"class": "CardData",
+"language": "GDScript",
+"path": "res://CardData.gd"
+}, {
+"base": "EditorVCSInterface",
 "class": "GitAPI",
 "language": "NativeScript",
 "path": "res://addons/godot-git-plugin/git_api.gdns"
 } ]
 _global_script_class_icons={
+"Card": "",
+"CardData": "",
 "GitAPI": ""
 }
 
@@ -37,4 +49,4 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://default_env/default_env.tres"
