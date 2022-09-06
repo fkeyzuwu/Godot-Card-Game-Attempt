@@ -6,18 +6,21 @@
 
 [node name="Main" type="Node2D"]
 
-[node name="Card" parent="." instance=ExtResource( 1 )]
+[node name="HFlowContainer" type="HFlowContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Card" parent="HFlowContainer" instance=ExtResource( 1 )]
 position = Vector2( 45, 250 )
 data = ExtResource( 2 )
 
-[node name="Card2" parent="." instance=ExtResource( 1 )]
+[node name="Card2" parent="HFlowContainer" instance=ExtResource( 1 )]
 position = Vector2( 777, 254 )
-data = ExtResource( 3 )
 
-[node name="Card3" parent="." instance=ExtResource( 1 )]
+[node name="Card3" parent="HFlowContainer" instance=ExtResource( 1 )]
 position = Vector2( 533, 251 )
 data = ExtResource( 2 )
 
-[node name="Card4" parent="." instance=ExtResource( 1 )]
+[node name="Card4" parent="HFlowContainer" instance=ExtResource( 1 )]
 position = Vector2( 294, 254 )
-data = ExtResource( 2 )
+data = ExtResource( 3 )
