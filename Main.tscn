@@ -9,59 +9,33 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 
-[node name="Grid" type="GridContainer" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_constants/vseparation = 10
-custom_constants/hseparation = 21
+[node name="GridContainer" type="GridContainer" parent="."]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -225.0
+margin_right = 1160.0
+margin_bottom = 225.0
 columns = 4
 script = ExtResource( 4 )
 
-[node name="Card" parent="Grid" instance=ExtResource( 1 )]
-margin_right = 241.0
-margin_bottom = 295.0
+[node name="Card" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+margin_right = 287.0
+
+[node name="Card2" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+margin_left = 291.0
+margin_right = 578.0
 data = ExtResource( 2 )
 
-[node name="Card2" parent="Grid" instance=ExtResource( 1 )]
-margin_left = 262.0
-margin_right = 502.0
-margin_bottom = 295.0
+[node name="Card3" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+margin_left = 582.0
+margin_right = 869.0
 data = ExtResource( 3 )
 
-[node name="Card3" parent="Grid" instance=ExtResource( 1 )]
-margin_left = 523.0
-margin_right = 763.0
-margin_bottom = 295.0
-data = ExtResource( 2 )
-
-[node name="Card4" parent="Grid" instance=ExtResource( 1 )]
-margin_left = 784.0
-margin_right = 1024.0
-margin_bottom = 295.0
-data = ExtResource( 3 )
-
-[node name="Card5" parent="Grid" instance=ExtResource( 1 )]
-margin_top = 305.0
-margin_right = 241.0
-margin_bottom = 600.0
-data = ExtResource( 3 )
-
-[node name="Card6" parent="Grid" instance=ExtResource( 1 )]
-margin_left = 262.0
-margin_top = 305.0
-margin_right = 502.0
-margin_bottom = 600.0
-data = ExtResource( 2 )
-
-[node name="Card7" parent="Grid" instance=ExtResource( 1 )]
-margin_left = 523.0
-margin_top = 305.0
-margin_right = 763.0
-margin_bottom = 600.0
-
-[node name="Card8" parent="Grid" instance=ExtResource( 1 )]
-margin_left = 784.0
-margin_top = 305.0
-margin_right = 1024.0
-margin_bottom = 600.0
+[node name="Card4" parent="GridContainer" instance=ExtResource( 1 )]
+anchor_right = 0.0
+margin_left = 873.0
+margin_right = 1160.0
 data = ExtResource( 2 )
